@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <ListView
+                android:layout_width="157dp"
+                android:layout_height="356dp"
+                android:id="@+id/member_details"
+                android:scrollbarSize="1dip"
+                android:layout_gravity="right"
+                >
+            </ListView>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="right"
+                android:gravity="bottom"
+                android:layout_marginRight="@dimen/cross_margin"
+                android:src="@drawable/cross_icon"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

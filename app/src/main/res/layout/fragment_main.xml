@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#a6a6a6">
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/top_advt"
+
+            />
+    </LinearLayout>
+
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="8">
+
+
+
+        <LinearLayout
+            android:id="@+id/head"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/home_header"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:id="@+id/toggle"
+            android:background="@drawable/toggle_icon_1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/thisdate"
+            android:text="12"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:id="@+id/thisday"
+            android:text="WED"
+            />
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/groceries" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:id="@+id/first_cnt"
+            android:text="7"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_text_size_small_material"
+            />
+
+        <ImageView
+            android:id="@+id/sec"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/final_all" />
+
+        <ImageView
+            android:id="@+id/third"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/final_events" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/third_cnt"
+            android:textColor="#fff"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:text="0"
+            />
+
+        <ImageView
+            android:id="@+id/fourth"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/final_appointment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fourth_cnt"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:textColor="#fff"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:text="2"
+            />
+
+        <ImageView
+            android:id="@+id/fifth"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/final_bills" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fifth_cnt"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:textColor="#fff"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:text="8"
+            />
+
+        <ImageView
+            android:id="@+id/sixth"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/final_medicines" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/sixth_cnt"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:textColor="#fff"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:text="6"
+            />
+
+        <ImageView
+            android:id="@+id/seventh"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/final_wakemeup" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/seventh_cnt"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:textColor="#fff"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:text="0"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/button"
+            />
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#a6a6a6">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

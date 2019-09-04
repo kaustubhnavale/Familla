@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Familla</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="nav_item_home">Home</string>
+
+    <string name="nav_item_addmem">Add Member</string>
+    <string name="nav_item_History">History</string>
+
+    <string name="nav_item_Settings">Settings</string>
+
+    <string name="nav_item_contact">Emergency Contacts</string>
+
+    <string name="nav_item_logout">Logout</string>
+
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+
+    <string name="banner_ads">ca-app-pub-2020313496090138/9578590488</string>
+
+    <string name="NoRecent">No recent</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_addmem</item>
+        <item>@string/nav_item_History</item>
+        <item>@string/nav_item_contact</item>
+        <item>@string/nav_item_Settings</item>
+        <item>@string/nav_item_logout</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

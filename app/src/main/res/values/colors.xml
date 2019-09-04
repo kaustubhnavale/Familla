@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B31684</color>
+    <color name="colorPrimaryDark">#B31684</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="colordialog">#3E80B4</color>
+    <color name="colorAccent">#FF80AB</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="colorgroceri">#A42359</color>
+    <color name="colorbilldata">#c27958</color>
+    <color name="colorappointment">#30147e</color>
+    <color name="colormedicine">#32A54D</color>
+    <color name="colorevent">#019b83 </color>
+    <color name="colorwake">#fa6060</color>
+    <color name="colormain">#5F4B91</color>
+
+
+    <!-- Screens background color-->
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_wake">#fe8685</color>
+    <color name="dot_dark_event">#5cbaab</color>
+    <color name="dot_dark_appointment">#6d5ead</color>
+    <color name="dot_dark_bill">#e4a88a</color>
+    <color name="dot_dark_medicine">#48d563</color>
+    <color name="dot_dark_grocery">#da4584</color>
+
+
+
+
+
+
+
+    <!-- dots active colors -->
+    <color name="dot_light_wake_normal">#d85251</color>
+    <color name="dot_light_event_normal">#009880</color>
+    <color name="dot_light_appointment_normal">#3d3367</color>
+    <color name="dot_light_bill_normal">#bf7b58</color>
+    <color name="dot_light_medicine_normal">#2ea444</color>
+    <color name="dot_light_grocery_normal">#a42359</color>
+
+
+    <!--  <array name="array_dot_active">
+          <item>@color/dot_light_screen1</item>
+          <item>@color/dot_light_screen2</item>
+          <item>@color/dot_light_screen3</item>
+          <item>@color/dot_light_screen4</item>
+      </array>
+
+      <array name="array_dot_inactive">
+          <item>@color/dot_dark_screen1</item>
+          <item>@color/dot_dark_screen2</item>
+          <item>@color/dot_dark_screen3</item>
+          <item>@color/dot_dark_screen4</item>
+      </array>
+  -->
+
+
+    <array name="array_dot_alarm">
+        <item>@color/dot_dark_wake</item>
+        <item>@color/dot_dark_wake</item>
+        <item>@color/dot_dark_wake</item>
+    </array>
+
+    <array name="array_dot_alarm_inactive">
+        <item>@color/dot_light_wake_normal</item>
+        <item>@color/dot_light_wake_normal</item>
+        <item>@color/dot_light_wake_normal</item>
+    </array>
+
+    <array name="array_dot_event">
+        <item>@color/dot_dark_event</item>
+        <item>@color/dot_dark_event</item>
+        <item>@color/dot_dark_event</item>
+        <item>@color/dot_dark_event</item>
+    </array>
+
+    <array name="array_dot_event_inactive">
+        <item>@color/dot_light_event_normal</item>
+        <item>@color/dot_light_event_normal</item>
+        <item>@color/dot_light_event_normal</item>
+        <item>@color/dot_light_event_normal</item>
+    </array>
+
+    <array name="array_dot_appointment">
+        <item>@color/dot_dark_appointment</item>
+        <item>@color/dot_dark_appointment</item>
+        <item>@color/dot_dark_appointment</item>
+        <item>@color/dot_dark_appointment</item>
+    </array>
+
+    <array name="array_dot_appointment_inactive">
+        <item>@color/dot_light_appointment_normal</item>
+        <item>@color/dot_light_appointment_normal</item>
+        <item>@color/dot_light_appointment_normal</item>
+        <item>@color/dot_light_appointment_normal</item>
+    </array>
+
+    <array name="array_dot_bill">
+        <item>@color/dot_dark_bill</item>
+        <item>@color/dot_dark_bill</item>
+        <item>@color/dot_dark_bill</item>
+        <item>@color/dot_dark_bill</item>
+    </array>
+
+    <array name="array_dot_bill_inactive">
+        <item>@color/dot_light_bill_normal</item>
+        <item>@color/dot_light_bill_normal</item>
+        <item>@color/dot_light_bill_normal</item>
+        <item>@color/dot_light_bill_normal</item>
+    </array>
+
+    <array name="array_dot_medicine">
+        <item>@color/dot_dark_medicine</item>
+        <item>@color/dot_dark_medicine</item>
+        <item>@color/dot_dark_medicine</item>
+        <item>@color/dot_dark_medicine</item>
+    </array>
+
+    <array name="array_dot_medicine_inactive">
+        <item>@color/dot_light_medicine_normal</item>
+        <item>@color/dot_light_medicine_normal</item>
+        <item>@color/dot_light_medicine_normal</item>
+        <item>@color/dot_light_medicine_normal</item>
+    </array>
+
+    <array name="array_dot_grocery">
+        <item>@color/dot_dark_grocery</item>
+        <item>@color/dot_dark_grocery</item>
+        <item>@color/dot_dark_grocery</item>
+        <item>@color/dot_dark_grocery</item>
+    </array>
+
+    <array name="array_dot_grocery_inactive">
+        <item>@color/dot_light_grocery_normal</item>
+        <item>@color/dot_light_grocery_normal</item>
+        <item>@color/dot_light_grocery_normal</item>
+        <item>@color/dot_light_grocery_normal</item>
+    </array>
+</resources>

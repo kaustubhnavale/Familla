@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorgradiant"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@null"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/dia"
+            android:choiceMode="singleChoice"
+            android:fastScrollAlwaysVisible="true"
+            android:listSelector="@drawable/repeat"
+            android:scrollbarSize="4dp"
+            android:scrollbarStyle="outsideInset"
+            android:divider="@android:color/white"
+            android:layout_gravity="center"
+            android:padding="10dp">
+        </ListView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="CANCEL"
+            android:id="@+id/cancel"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_toLeftOf="@+id/ok"
+            android:layout_below="@+id/dia"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="OK"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/ok"
+            android:layout_marginTop="18dp"
+            android:gravity="left"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/dia"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "416955083863",
+    "firebase_url": "https://familla-9aba2.firebaseio.com",
+    "project_id": "familla-9aba2",
+    "storage_bucket": "familla-9aba2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416955083863:android:c52e199f5459a3cd",
+        "android_client_info": {
+          "package_name": "familla.mipl.familla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416955083863-vjc0bq093pbcr91583517mftfms217tr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "familla.mipl.familla",
+            "certificate_hash": "e957c1400bc707be804bf4e24ce23ea7809a8cca"
+          }
+        },
+        {
+          "client_id": "416955083863-h0gljptsqkticcqep4fmcecs0bribuvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApfJsfHt1hpTS5p90PCZcMk5ipTHQU6no"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416955083863-h0gljptsqkticcqep4fmcecs0bribuvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

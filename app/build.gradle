@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+//    buildToolsVersion '26.0.2'
+    lintOptions {
+        abortOnError false
+        ignoreWarnings true
+    }
+    defaultConfig {
+        applicationId "familla.mipl.familla"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 13
+        versionName "2.1.0"
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:22.2.1'
+    implementation 'com.android.support:recyclerview-v7:22.2.1'
+    implementation 'com.wdullaer:materialdatetimepicker:2.1.1'
+    implementation 'com.android.support:design:22.2.1'
+    implementation 'com.google.firebase:firebase-core:11.4.0'
+    implementation 'com.google.firebase:firebase-messaging:11.4.0'
+    implementation 'com.google.firebase:firebase-ads:11.4.0'
+    implementation 'swarajsaaj:otpreader:1.1'
+    implementation 'com.android.support:support-v4:22.2.1'
+    implementation 'com.android.support:multidex:1.0.0'
+    implementation 'com.github.deano2390:MaterialShowcaseView:1.2.0'
+    implementation 'com.android.volley:volley:1.1.0'
+}
+apply plugin: 'com.google.gms.google-services'

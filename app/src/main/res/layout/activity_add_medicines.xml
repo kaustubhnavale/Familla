@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="7">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="8"
+            android:fillViewport="true" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="6"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_marginTop="10dp"
+                   >
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.6"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:gravity="center|center_vertical"
+                                    android:text="SELECT PERSON NAME"
+                                    android:textSize="18dp"
+                                    android:background="@drawable/drop_arrow"
+                                    android:textColor="@android:color/white"
+                                    android:id="@+id/name" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:gravity="center|center_vertical"
+                                    android:text="SELECT PART OF DAY"
+                                    android:background="@drawable/drop_arrow"
+                                    android:textSize="18dp"
+                                    android:textColor="@android:color/white"
+                                    android:id="@+id/type" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp">
+
+                                <ImageView
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.2"
+                                    android:src="@drawable/instruction"
+                                    android:layout_marginBottom="2dp"
+                                    />
+                                <EditText
+                                    android:id="@+id/Medicinename"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2.2"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/colorPrimary"
+                                    android:inputType="text"
+                                    android:hint="Name of Medicine"
+                                    android:paddingLeft="55dp"
+                                    android:gravity="left|center" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp">
+
+                                <ImageView
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.2"
+                                    android:src="@drawable/instruction"
+                                    android:layout_marginBottom="2dp"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/addinfo"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2.2"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/colorPrimary"
+                                    android:inputType="text"
+                                    android:hint="Special Instruction"
+                                    android:paddingLeft="55dp"
+                                    android:gravity="left|center" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="1dp"
+                            android:orientation="horizontal"
+                            android:weightSum="4"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:orientation="horizontal"
+                                android:weightSum="5"
+                                >
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+
+
+                                    android:layout_weight="2"
+                                    >
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/date1"
+                                        android:layout_alignParentLeft="true"
+                                        />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+
+
+                                    android:layout_weight="3"
+                                    >
+                                    <Button
+                                        android:id="@+id/Date"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/date2"
+                                        android:layout_alignParentRight="true"
+                                        android:text="SET A DATE"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@android:color/white"/>
+
+
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:orientation="horizontal"
+                                android:weightSum="5"
+                                >
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    >
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/time1"
+                                        android:layout_alignParentLeft="true"
+                                        />
+                                </RelativeLayout>
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+
+
+                                    android:layout_weight="3"
+                                    >
+                                    <Button
+                                        android:id="@+id/Time"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/time2"
+                                        android:layout_alignParentRight="true"
+                                        android:text="SET A Time"
+                                        android:gravity="left|center_vertical"
+                                        android:textColor="@android:color/white"/>
+
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:weightSum="1">
+
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:id="@+id/addre"
+                                    android:background="@drawable/drop_arrow"
+                                    android:layout_weight="1"
+                                    android:textSize="18dp"
+                                    android:text="SELECT REMINDER"
+                                    android:textColor="@android:color/white"
+                                    android:gravity="center|center_vertical"
+                                    android:layout_centerHorizontal="true"
+
+                                    android:visibility="visible"
+                                    />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp">
+
+                                <ImageView
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.2"
+                                    android:src="@drawable/add_bill_icon"
+                                    android:layout_marginBottom="2dp"
+                                    />
+                                <EditText
+                                    android:id="@+id/count"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2.2"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/colorPrimary"
+                                    android:hint="Medicine Count"
+                                    android:paddingLeft="55dp"
+                                    android:gravity="left|center"
+                                    android:inputType="number" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp">
+
+                                <ImageView
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.2"
+                                    android:src="@drawable/add_bill_icon"
+                                    android:layout_marginBottom="2dp"
+                                    />
+                                <EditText
+                                    android:id="@+id/docname"
+                                    android:layout_width="0dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2.2"
+                                    android:singleLine="true"
+                                    android:background="@null"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/colorPrimary"
+                                    android:inputType="text"
+                                    android:hint="Doctor's Name"
+                                    android:paddingLeft="55dp"
+                                    android:gravity="left|center" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1.5"
+                            android:gravity="center_vertical"
+                            android:layout_marginTop="5dp"
+                         >
+
+                            <Button
+                                android:id="@+id/addevent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginRight="60dp"
+                                android:textSize="20dp"
+                                android:gravity="center|center_vertical"
+                                android:background="@drawable/signup_button"
+                                android:text="SAVE"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"></LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
